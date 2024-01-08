@@ -1,0 +1,218 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+}
+
+/* header */
+
+header {
+  margin: 0;
+  text-align: center;
+  position: relative;
+}
+
+.header-image {
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.header-image:hover {
+  opacity: 0.7;
+}
+
+/* header menu */
+
+header .bi {
+  font-size: 52px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
+
+header .bi:hover {
+  opacity: 0.6;
+}
+
+header ul,
+header li,
+header a {
+  margin: 0;
+  padding: 0;
+}
+
+header ul {
+  list-style: none;
+  width: 125px;
+  background: #eee;
+  position: absolute;
+  top: -180px;
+  right: 4px;
+  z-index: 10;
+  border-radius: 6px;
+  transition: all 0.4s;
+}
+
+header li {
+  text-align: center;
+  margin: 4px auto;
+  transition: all 0.3s;
+}
+
+header li:hover {
+  opacity: 0.7;
+}
+
+header a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* header menu,list show-hide */
+
+#close {
+  display: none;
+}
+
+#close.show {
+  display: block;
+}
+
+#open.hide {
+  display: none;
+}
+
+#list.show {
+  position: absolute;
+  top: 70px;
+  right: 4px;
+}
+
+/* Hero Erea */
+.hero img {
+  vertical-align: bottom;
+}
+
+.hero .container-main {
+  position: relative;
+}
+
+.hero .thumb {
+  transition: all 0.3s;
+}
+footer span {
+}
+.hero .thumb:hover {
+  opacity: 0.7;
+}
+
+button {
+  all: unset;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 48px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+#prev {
+  position: absolute;
+  top: calc((100% - 48px) / 2);
+  left: 6px;
+}
+
+#next {
+  position: absolute;
+  top: calc((100% - 48px) / 2);
+  right: 6px;
+}
+
+.container-thumbnail {
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.container-thumbnail img {
+  margin-left: 8px;
+}
+
+.hero {
+  position: relative;
+}
+
+.catchphrase {
+  position: absolute;
+  bottom: 40%;
+  right: 15%;
+  color: #222;
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+  width: 70%;
+  background: rgba(256, 256, 256, 0.6);
+  border-radius: 8px;
+}
+
+/* footer */
+footer {
+  margin: 0;
+  padding: 6px 0 0 0;
+  width: 100%;
+  height: 90px;
+  background-color: #ddd;
+  position: relative;
+  text-align: center;
+}
+
+footer a {
+  display: block;
+  text-decoration: none;
+}
+
+footer .bi {
+  padding-right: 6px;
+}
+
+.instagram {
+  color: #5851db;
+  margin-top: 8px;
+  transition: all 0.3s;
+}
+
+.instagram:hover {
+  opacity: 0.6;
+}
+
+.map {
+  margin-top: 6px;
+  transition: all 0.3s;
+}
+
+.map:hover {
+  opacity: 0.6;
+}
+
+footer .copy {
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  bottom: 4px;
+  right: 6px;
+}
+
+/* @media */
+/* @media (min-width: 600px) {
+  footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+  }
+} */
